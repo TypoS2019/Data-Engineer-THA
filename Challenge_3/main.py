@@ -1,5 +1,3 @@
-import random
-
 from google.cloud import bigquery
 
 if __name__ == '__main__':

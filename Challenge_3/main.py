@@ -1,8 +1,8 @@
 from google.cloud import bigquery
 
-if __name__ == '__main__':
-    project = 'data-engineer-tha'
+project = 'data-engineer-tha'
 
+if __name__ == '__main__':
     client = bigquery.Client()
     data_sizes = {}
     for dataset_item in client.list_datasets(project=project):
